@@ -1,37 +1,37 @@
-# Site settings
-title: 玉帛 Blog
+# Site settings   #站点设置
+title   标题: 玉帛 Blog
 SEOTitle: 玉帛的博客 | yubo Blog
 header-img: img/home-bg.jpg
-email: ikun1314@outlook.sa
-description: "这里是 @yb 玉帛的个人博客，与你一起发现更大的世界 | 要做一个有dream的人"
-keyword: "blog,个人网站"
-url: "https://blog.wp.ddns-ip.net" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+email   电子邮件: ikun1314@outlook.sa电子邮件:ikun1314@outlook.sa
+description   描述: "这里是 @yb 玉帛的个人博客，与你一起发现更大的世界 | 要做一个有dream的人"
+keyword   关键字: "blog,个人网站"
+url: "https://blog.wp.ddns-ip.net" url: "https://blog.wp.ddns-ip.net" #您的主机，用于绝对url# your host, for absolute URL#您的主机，用于绝对URL
+baseurl: "" Baseurl: "" #例如，‘/blog’如果你的博客托管在‘host/blog’上# for example, '/blog' if your blog hosted on 'host/blog'#例如，‘/blog’，如果你的博客托管在‘host/blog’上
 
-# Publish posts or collection documents with a future date.
-future: true
+# Publish posts or collection documents with a future date.#发布带有未来日期的帖子或集合文档。
+future   未来: true   真正的
 
-# SNS settings
-RSS: false
+# SNS settings   # SNS设置
+RSS: false   假
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude:
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.#从2016年开始，‘ pyements ’在GitHub页面上不受支持。用“胭脂”来突出。
+highlighter   萤光笔: rouge   萤光笔:胭脂
+permalink   永久链接: pretty   永久链接:漂亮
+paginate   随意翻阅: 10
+exclude   排除:
   [
-    "less",
-    "node_modules",
+       “少”,"less"   “少”,
+       “node_modules”,"node_modules"   “node_modules”,
     "Gruntfile.js",
     "package.json",
     "README.md",
     "README.zh.md",
   ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+anchorjs: true Anchorjs: true #如果你想自定义锚。查看‘ post.html ’的第181行# if you want to customize anchor. check out line:181 of `post.html`#如果你想自定义锚。查看‘ post.html ’的第181行
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:#如果你在中国有时区问题（例如#68），取消注释来使用这个：
 #timezone: CN
 
 # Gems
@@ -49,50 +49,39 @@ kramdown:
   input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
-      line_numbers: false
+      line_numbers: false   假
     block:
-      line_numbers: true
+      line_numbers: true   真正的
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: 
 
 # Netease settings
-netease_comment: false
+netease_comment: false   假
 
-# Analytics settings
+# Analytics settings   #分析设置
 # Baidu Analytics
-# ba_track_id: [your track id]
+# ba_track_id: [your track id]# ba_track_id:[你的赛道id]
 
-# Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# Google Analytics   #谷歌分析
+ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xxga_track_id: "UA-49627206-1" #格式:UA-xxxxxx-xx
+ga_domain: huangxuan.me   ga_domain: huangxuan。我
 
-# Sidebar settings
-sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+# Sidebar settings   #侧边栏设置
+sidebar: true # whether or not using Sidebar.sidebar: true #是否使用sidebar。
+sidebar-about-description: ""
+sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`使用绝对URL，因为它在‘ / ’和‘ /about/ ’中都有使用
 
-# Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+# Featured Tags   #特色标签
+featured-tags: true # whether or not using Feature-TagsFeature-Tags: true #是否使用Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value#如果一个标签的大小大于这个条件值，它将被特征化
 
-# Progressive Web Apps
+# Progressive Web Apps   #渐进式Web应用
 chrome-tab-theme-color: "#000000"
-service-worker: true
+service-worker: true   真正的
 
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+# MathJax rendering for layout:page (e.g. post preview)# MathJax渲染布局：页面（例如后预览）
+page-mathjax: false   假
 
-# Friends
-friends:
-  [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
-  ]
+# Friends   #朋友
