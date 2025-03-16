@@ -12,7 +12,7 @@ baseurl: "" Baseurl: "" #例如，‘/blog’如果你的博客托管在‘host/
 future   未来: true   真正的
 
 # SNS settings   # SNS设置
-RSS: false   假
+RSS: false   假RSS：假
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -23,8 +23,8 @@ permalink   永久链接: pretty   永久链接:漂亮
 paginate   随意翻阅: 10
 exclude   排除:
   [
-       “少”,"less"   “少”,
-       “node_modules”,"node_modules"   “node_modules”,
+       “少”,"less"   “少”   “少”,
+       “node_modules”“node_modules”、“node_modules”“node_modules”,,"node_modules"   “node_modules”   “node_modules”,
     "Gruntfile.js",
     "package.json",
     "README.md",
@@ -32,32 +32,32 @@ exclude   排除:
   ]
 anchorjs: true Anchorjs: true #如果你想自定义锚。查看‘ post.html ’的第181行# if you want to customize anchor. check out line:181 of `post.html`#如果你想自定义锚。查看‘ post.html ’的第181行
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:#如果你在中国有时区问题（例如#68），取消注释来使用这个：
-#timezone: CN
+#timezone: CN   #时区:CN
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
+# Gems   #宝石
+# from PR#40, to support local preview for Jekyll 3.0从PR#40开始，支持Jekyll 3.0的本地预览
+# make sure you have this gem installed确保你已经安装了这个gem
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins   插件: [jekyll-paginate插件(jekyll-paginate):]
 
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# Markdown settings   # Markdown设置
+# replace redcarpet to kramdown,#把红毯换成kramdown，
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown#虽然redcarpet可以自动高亮显示代码，但是缺少header-id使得目录无法显示，所以我切换到kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
+markdown   减价: kramdown   减价:kramdown
 kramdown:
-  input: GFM # use Github Flavored Markdown !important
+  input   输入: GFM 输入：GFM #使用Github风味Markdown !重要# use Github Flavored Markdown !important#使用Github风味Markdown
   syntax_highlighter_opts:
-    span:
+    span   跨度:
       line_numbers: false   假
-    block:
+    block   块:
       line_numbers: true   真正的
       start_line: 1
 
-# Disqus settings
-disqus_username: 
+# Disqus settings   #磁盘设置
+disqus_username: Wp
 
-# Netease settings
+# Netease settings   #网易设置
 netease_comment: false   假
 
 # Analytics settings   #分析设置
@@ -69,8 +69,8 @@ ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xxga_track_id: "UA-49627206-1" 
 ga_domain: huangxuan.me   ga_domain: huangxuan。我
 
 # Sidebar settings   #侧边栏设置
-sidebar: true # whether or not using Sidebar.sidebar: true #是否使用sidebar。
-sidebar-about-description: ""
+sidebar   侧边栏: true # whether or not using Sidebar.sidebar: true #是否使用sidebar。
+sidebar-about-description: "要做一个有dream的人"
 sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`使用绝对URL，因为它在‘ / ’和‘ /about/ ’中都有使用
 
 # Featured Tags   #特色标签
@@ -79,9 +79,9 @@ featured-condition-size: 1 # A tag will be featured if the size of it is more th
 
 # Progressive Web Apps   #渐进式Web应用
 chrome-tab-theme-color: "#000000"
-service-worker: true   真正的
+service-worker   管理局的职员: true   真正的
 
 # MathJax rendering for layout:page (e.g. post preview)# MathJax渲染布局：页面（例如后预览）
-page-mathjax: false   假
+page-mathjax: false   假Page-mathjax: false   假
 
 # Friends   #朋友
